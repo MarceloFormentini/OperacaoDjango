@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do sistema
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+
+# Arquivos temporários e backups
+*.~ 
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Arquivos de cobertura de testes
+htmlcov/
+.coverage
+.coverage.*
+
+# Arquivos de migração antigos
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# arquivos de migração:
+**/migrations/*.py
+
+# Configurações locais do editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
