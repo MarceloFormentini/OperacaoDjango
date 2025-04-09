@@ -22,7 +22,7 @@ jobs:
           --health-retries=5
 
     env:
-      DJANGO_SETTINGS_MODULE: operacaoDjango.settings
+      DJANGO_SETTINGS_MODULE: OperationDjango.settings
       DATABASE_URL: postgres://postgres:postgres@localhost:5432/operacao
       SECRET_KEY: uma-chave-secreta-fake
       DEBUG: true
